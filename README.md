@@ -1,15 +1,14 @@
-# Lecture Notes on Econometrics
+# 简介
 
-by Qiang Gao (School of Finance, Capital University of Economics and Business)
+## Lecture Notes on Econometrics
 
+by Qiang Gao \(School of Finance, Capital University of Economics and Business\)
 
-# 高级计量经济学课件
+## 高级计量经济学课件
 
 作者：高强（首都经济贸易大学金融学院）
 
----
-
-本课件是对日本经济学家林文夫（2000）所著《高级计量经济学》教材[^1]的补充。
+本课件是对日本经济学家林文夫（2000）所著《高级计量经济学》教材的补充。
 
 国内新入学的研究生，本科阶段所接受的数学训练普遍不足。例如，微积分课程缺少对梯度、雅可比矩阵、海赛矩阵、多元泰勒展开的讲解；线性代数课程缺少对向量空间、坐标变换、特征分解、四个基本子空间、奇异值分解、二次型等重要概念的强调；概率论与数理统计两门特别重要的课程，通常被合并成一门课在一个学期讲完，造成学生普遍搞不清楚条件期望、条件方差、方差—协方差矩阵、多元正态分布、$$\chi^2$$分布、$$t$$分布、$$F$$分布、极大似然估计量、信息矩阵等基础概念；更不要说压根不安排实分析、微分方程、随机过程、动态优化等数学课了。
 
@@ -21,105 +20,102 @@ by Qiang Gao (School of Finance, Capital University of Economics and Business)
 
 ps. 若网页中数学公式显示不正常，通常刷新一遍网页即可正常显示。这似乎是 `gitbook.com` 平台的技术性问题，或者是从国内网络访问国际网络的普遍性问题造成的，本人无法解决。
 
-# 目录
+## 目录
 
-## Chapter 1 Finite-Sample Properties of OLS
+### Chapter 1 Finite-Sample Properties of OLS
 
-### Section 1 The Classical Linear Regression Model
+#### Section 1 The Classical Linear Regression Model
 
-* [Lecture Note 1.1](lecture-note/1.1.md)
-    * [Review Question 1.1.1](question-solution/1.1.1.md)
-    * [Review Question 1.1.2](question-solution/1.1.2.md)
-    * [Review Question 1.1.3](question-solution/1.1.3.md)
-    * [Review Question 1.1.4](question-solution/1.1.4.md)
-    * [Review Question 1.1.5](question-solution/1.1.5.md)
-    * [Review Question 1.1.6](question-solution/1.1.6.md)
+* [Lecture Note 1.1](section-1-the-classical-linear-regression-model/1.1/)
+  * [Review Question 1.1.1](section-1-the-classical-linear-regression-model/1.1/1.1.1.md)
+  * [Review Question 1.1.2](section-1-the-classical-linear-regression-model/1.1/1.1.2.md)
+  * [Review Question 1.1.3](section-1-the-classical-linear-regression-model/1.1/1.1.3.md)
+  * [Review Question 1.1.4](section-1-the-classical-linear-regression-model/1.1/1.1.4.md)
+  * [Review Question 1.1.5](section-1-the-classical-linear-regression-model/1.1/1.1.5.md)
+  * [Review Question 1.1.6](section-1-the-classical-linear-regression-model/1.1/1.1.6.md)
 
-### Section 2 The Algebra of Least Squares
+#### Section 2 The Algebra of Least Squares
 
-* [Lecture Note 1.2](lecture-note/1.2.md)
-    * [Review Question 1.2.1](question-solution/1.2.1.md)
-    * [Review Question 1.2.2](question-solution/1.2.2.md)
-    * [Review Question 1.2.3](question-solution/1.2.3.md)
-    * [Review Question 1.2.4](question-solution/1.2.4.md)
-    * [Review Question 1.2.5](question-solution/1.2.5.md)
-    * [Review Question 1.2.6](question-solution/1.2.6.md)
-    * [Review Question 1.2.7](question-solution/1.2.7.md)
-    * [Review Question 1.2.8](question-solution/1.2.8.md)
-    * [Review Question 1.2.9](question-solution/1.2.9.md)
-    
-### Section 3 Finite-Sample Properties of OLS
+* [Lecture Note 1.2](section-2-the-algebra-of-least-squares/1.2/)
+  * [Review Question 1.2.1](section-2-the-algebra-of-least-squares/1.2/1.2.1.md)
+  * [Review Question 1.2.2](section-2-the-algebra-of-least-squares/1.2/1.2.2.md)
+  * [Review Question 1.2.3](section-2-the-algebra-of-least-squares/1.2/1.2.3.md)
+  * [Review Question 1.2.4](section-2-the-algebra-of-least-squares/1.2/1.2.4.md)
+  * [Review Question 1.2.5](section-2-the-algebra-of-least-squares/1.2/1.2.5.md)
+  * [Review Question 1.2.6](section-2-the-algebra-of-least-squares/1.2/1.2.6.md)
+  * [Review Question 1.2.7](section-2-the-algebra-of-least-squares/1.2/1.2.7.md)
+  * [Review Question 1.2.8](section-2-the-algebra-of-least-squares/1.2/1.2.8.md)
+  * [Review Question 1.2.9](section-2-the-algebra-of-least-squares/1.2/1.2.9.md)
 
-* [Review Question 1.3.1](question-solution/1.3.1.md)
-* [Review Question 1.3.2](question-solution/1.3.2.md)
-* [Review Question 1.3.3](question-solution/1.3.3.md)
-* [Review Question 1.3.4](question-solution/1.3.4.md)
-* [Review Question 1.3.5](question-solution/1.3.5.md)
-* [Review Question 1.3.6](question-solution/1.3.6.md)
-* [Review Question 1.3.7](question-solution/1.3.7.md)
+#### Section 3 Finite-Sample Properties of OLS
 
-### Section 4 Hypothesis Testing under Normality
+* [Review Question 1.3.1](section-3-finite-sample-properties-of-ols/1.3.1.md)
+* [Review Question 1.3.2](section-3-finite-sample-properties-of-ols/1.3.2.md)
+* [Review Question 1.3.3](section-3-finite-sample-properties-of-ols/1.3.3.md)
+* [Review Question 1.3.4](section-3-finite-sample-properties-of-ols/1.3.4.md)
+* [Review Question 1.3.5](section-3-finite-sample-properties-of-ols/1.3.5.md)
+* [Review Question 1.3.6](section-3-finite-sample-properties-of-ols/1.3.6.md)
+* [Review Question 1.3.7](section-3-finite-sample-properties-of-ols/1.3.7.md)
 
-* [Review Question 1.4.1](question-solution/1.4.1.md)
-* [Review Question 1.4.2](question-solution/1.4.2.md)
-* [Review Question 1.4.3](question-solution/1.4.3.md)
-* [Review Question 1.4.4](question-solution/1.4.4.md)
-* [Review Question 1.4.5](question-solution/1.4.5.md)
-* [Review Question 1.4.6](question-solution/1.4.6.md)
-* [Review Question 1.4.7](question-solution/1.4.7.md)
+#### Section 4 Hypothesis Testing under Normality
 
-### Section 5 Relation to Maximum Likelihood
+* [Review Question 1.4.1](section-4-hypothesis-testing-under-normality/1.4.1.md)
+* [Review Question 1.4.2](section-4-hypothesis-testing-under-normality/1.4.2.md)
+* [Review Question 1.4.3](section-4-hypothesis-testing-under-normality/1.4.3.md)
+* [Review Question 1.4.4](section-4-hypothesis-testing-under-normality/1.4.4.md)
+* [Review Question 1.4.5](section-4-hypothesis-testing-under-normality/1.4.5.md)
+* [Review Question 1.4.6](section-4-hypothesis-testing-under-normality/1.4.6.md)
+* [Review Question 1.4.7](section-4-hypothesis-testing-under-normality/1.4.7.md)
 
-* [Review Question 1.5.1](question-solution/1.5.1.md)
-* [Review Question 1.5.2](question-solution/1.5.2.md)
-* [Review Question 1.5.3](question-solution/1.5.3.md)
-* [Review Question 1.5.4](question-solution/1.5.4.md)
-* [Review Question 1.5.5](question-solution/1.5.5.md)
+#### Section 5 Relation to Maximum Likelihood
 
-### Section 6 Generalized Least Squares (GLS)
+* [Review Question 1.5.1](section-5-relation-to-maximum-likelihood/1.5.1.md)
+* [Review Question 1.5.2](section-5-relation-to-maximum-likelihood/1.5.2.md)
+* [Review Question 1.5.3](section-5-relation-to-maximum-likelihood/1.5.3.md)
+* [Review Question 1.5.4](section-5-relation-to-maximum-likelihood/1.5.4.md)
+* [Review Question 1.5.5](section-5-relation-to-maximum-likelihood/1.5.5.md)
 
-* [Review Question 1.6.1](question-solution/1.6.1.md)
-* [Review Question 1.6.2](question-solution/1.6.2.md)
-* [Review Question 1.6.3](question-solution/1.6.3.md)
-* [Review Question 1.6.4](question-solution/1.6.4.md)
+#### Section 6 Generalized Least Squares \(GLS\)
 
-### Section 7 Application: Returns to Scale in Electricity Supply
+* [Review Question 1.6.1](section-6-generalized-least-squares-gls/1.6.1.md)
+* [Review Question 1.6.2](section-6-generalized-least-squares-gls/1.6.2.md)
+* [Review Question 1.6.3](section-6-generalized-least-squares-gls/1.6.3.md)
+* [Review Question 1.6.4](section-6-generalized-least-squares-gls/1.6.4.md)
 
-* [Lecture Note](lecture-note/1.7.md)
-* [Review Question 1.7.1](question-solution/1.7.1.md)
-* [Review Question 1.7.2](question-solution/1.7.2.md)
-* [Review Question 1.7.3](question-solution/1.7.3.md)
-* [Review Question 1.7.4](question-solution/1.7.4.md)
-* [Review Question 1.7.5](question-solution/1.7.5.md)
-* [Review Question 1.7.6](question-solution/1.7.6.md)
-* [Review Question 1.7.7](question-solution/1.7.7.md)
-* [Review Question 1.7.8](question-solution/1.7.8.md)
+#### Section 7 Application: Returns to Scale in Electricity Supply
 
-### Analytical Exercises
+* [Lecture Note](section-7-application-returns-to-scale-in-electricity-supply/1.7.md)
+* [Review Question 1.7.1](section-7-application-returns-to-scale-in-electricity-supply/1.7.1.md)
+* [Review Question 1.7.2](section-7-application-returns-to-scale-in-electricity-supply/1.7.2.md)
+* [Review Question 1.7.3](section-7-application-returns-to-scale-in-electricity-supply/1.7.3.md)
+* [Review Question 1.7.4](section-7-application-returns-to-scale-in-electricity-supply/1.7.4.md)
+* [Review Question 1.7.5](section-7-application-returns-to-scale-in-electricity-supply/1.7.5.md)
+* [Review Question 1.7.6](section-7-application-returns-to-scale-in-electricity-supply/1.7.6.md)
+* [Review Question 1.7.7](section-7-application-returns-to-scale-in-electricity-supply/1.7.7.md)
+* [Review Question 1.7.8](section-7-application-returns-to-scale-in-electricity-supply/1.7.8.md)
 
-* [Analytical Exercise 1.1](exercise-solution/1.1.md)
-* [Analytical Exercise 1.2](exercise-solution/1.2.md)
+#### Analytical Exercises
 
-## Chapter 2 Large-Sample Theory
+* [Analytical Exercise 1.1](analytical-exercises/1.1.md)
+* [Analytical Exercise 1.2](analytical-exercises/1.2.md)
 
-### Section 1 Review of Limit Theorems for Sequences of Random Variables
+### Chapter 2 Large-Sample Theory
 
-* [Review Question 2.1.1](question-solution/2.1.1.md)
-* [Review Question 2.1.2](question-solution/2.1.2.md)
-* [Review Question 2.1.3](question-solution/2.1.3.md)
-* [Review Question 2.1.4](question-solution/2.1.4.md)
-* [Review Question 2.1.5](question-solution/2.1.5.md)
+#### Section 1 Review of Limit Theorems for Sequences of Random Variables
 
-## Supplements
+* [Review Question 2.1.1](section-1-review-of-limit-theorems-for-sequences-of-random-variables/2.1.1.md)
+* [Review Question 2.1.2](section-1-review-of-limit-theorems-for-sequences-of-random-variables/2.1.2.md)
+* [Review Question 2.1.3](section-1-review-of-limit-theorems-for-sequences-of-random-variables/2.1.3.md)
+* [Review Question 2.1.4](section-1-review-of-limit-theorems-for-sequences-of-random-variables/2.1.4.md)
+* [Review Question 2.1.5](section-1-review-of-limit-theorems-for-sequences-of-random-variables/2.1.5.md)
+
+### Supplements
 
 * [Taylor's linearization](supplements/taylor-linearization.md)
 * [Variance-Covariance Matrix](supplements/var-cov-matrix.md)
 * [Four Ways of Matrix Multiplication](supplements/matrix-multiplication.md)
 
-#### 注
-
-[^1]: Fumio Hayashi, _Econometrics_. Princeton University Press, 2000. (http://press.princeton.edu/titles/6946.html)
-
----
+**注**
 
 Copyright ©2018 by Qiang Gao
+

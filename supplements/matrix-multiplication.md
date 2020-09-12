@@ -1,12 +1,10 @@
-## Matrix Multiplication Rules
+# Four Ways of Matrix Multiplication
 
 by Qiang Gao, updated at Mar 20, 2017
 
----
+Matrix multiplication can be defined equivalently in _four_ different ways as following, where vector $$\mathbf{a}$$ is _column_ vector by default and $$\mathbf{a}^\intercal$$ means corresponding _row_ vector, the transpose of $$\mathbf{a}$$.
 
-Matrix multiplication can be defined equivalently in _four_ different ways as following, where vector $$ \mathbf{a} $$ is  _column_ vector by default and $$ \mathbf{a}^\intercal $$ means corresponding _row_ vector, the transpose of $$ \mathbf{a} $$.
-
-#### Definition (inner-way multiplication)
+## Definition \(inner-way multiplication\)
 
 $$
 \begin{align}
@@ -35,7 +33,7 @@ $$
 \end{align}
 $$
 
-#### Definition (outer-way multiplication)
+## Definition \(outer-way multiplication\)
 
 $$
 \begin{align}
@@ -56,7 +54,7 @@ $$
 \end{align}
 $$
 
-#### Definition (column-way multiplication)
+## Definition \(column-way multiplication\)
 
 $$
 \begin{align}
@@ -84,7 +82,7 @@ $$
 \end{align}
 $$
 
-#### Definition (row-way multiplication)
+## Definition \(row-way multiplication\)
 
 $$
 \begin{align}
@@ -111,16 +109,12 @@ $$
 \end{align}
 $$
 
-##### Note
+### Note
 
-- If you are concerning _each element_ of the result of $$ \mathbf{A} \mathbf{B} $$, then you should use the inner-way multiplication.
-
-- If you want the express $$ \mathbf{A} \mathbf{B} $$ as a _sum_, then you should use the outer-way multiplication.
-
-- If you are concerning _each column_ of the result of $$ \mathbf{A} \mathbf{B} $$, then you should use the column-way multiplication.
-
-- If you are concerning _each row_ of the result of $$ \mathbf{A} \mathbf{B} $$, then you should use the row-way multiplication.
-
----
+* If you are concerning _each element_ of the result of $$\mathbf{A} \mathbf{B}$$, then you should use the inner-way multiplication.
+* If you want the express $$\mathbf{A} \mathbf{B}$$ as a _sum_, then you should use the outer-way multiplication.
+* If you are concerning _each column_ of the result of $$\mathbf{A} \mathbf{B}$$, then you should use the column-way multiplication.
+* If you are concerning _each row_ of the result of $$\mathbf{A} \mathbf{B}$$, then you should use the row-way multiplication.
 
 Copyright ©2018 by Qiang Gao
+
